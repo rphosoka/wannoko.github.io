@@ -1,0 +1,25 @@
+body {
+	background: #008000;
+}
+
+.background {
+	animation-name: movingText;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+}
+
+.background__text {
+	display: inline-block;
+	transform: rotate(30deg);
+}
+
+@keyframes movingText {
+	from {
+		transform: translate(0, 0);
+	}
+	to {
+		transform: translateX(100%) rotate(-30deg);
+	}
+}
