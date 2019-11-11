@@ -194,3 +194,19 @@
 		opacity: 0;
 	}
 }
+
+@-webkit-keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		border-radius: 50%;
+		opacity: 0.5;
+	}
+	80% {
+		opacity: 0.3;
+	}
+	100% {
+		transform: translateY(-1000px) rotate(720deg);
+		border-radius: 50%;
+		opacity: 0;
+	}
+}
