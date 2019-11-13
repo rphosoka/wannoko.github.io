@@ -46,24 +46,17 @@
 	list-style-position: outside;
 	background-color: #66b6d5;
 	overflow-wrap : break-word;
-	border-radius: 15px;
-	margin: 10px;
 	width: 100vh;
-	border: solid;
-	border-color: #000000;
-	border-width: 5px;
 	background: rgba(192, 192, 192, 0.8);
 }
 
 .contents .contents_title {
 	font-size: 3vw;
 	padding-left: 10px;
-	border-bottom: double;
-	border-color: #000000;
-	border-width: 5px;
 }
 
 .contents li {
+	margin-left: 50px;
 	font-size: 3vw;
 }
 
